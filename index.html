@@ -79,7 +79,22 @@
     .license-link:hover {
       color: #003f6b;
     }
-  </style>
+  
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.button-group a {
+  flex: 1 1 auto;
+  max-width: 220px;
+}
+
+
+    </style>
 </head>
 <body>
   <div class="container">
@@ -110,7 +125,7 @@
       <li><strong>Analyse approfondie des ADD</strong> via l’étude des écarts entre le profil prévu et le profil réel</li>
     </ul>
 
-    <p><strong>Par rapport aux modèles fixes, PSCHITT :</strong></p>
+    <p><strong>Par rapport aux modèles standarts, PSCHITT :</strong></p>
     <ul>
       <li>Interprète et applique <strong>dynamiquement</strong> les tables officielles</li>
       <li>Réagit en <strong>temps réel</strong> aux déviations du profil de plongée</li>
@@ -118,7 +133,11 @@
       <li>Constitue un <strong>outil d’analyse post-plongée</strong> pour mieux comprendre les incidents</li>
     </ul>
 
-    <a class="download-button" href="downloads/YourInstaller.exe" download>Télécharger le programme SafeDeco</a>
+   <div class="button-group">
+  <a class="download-button" href="downloads/YourInstaller.exe" download>Télécharger SafeDeco</a>
+  <a class="download-button" href="downloads/TrialVersion.exe" download>Version d’essai</a>
+  <a class="download-button" href="downloads/ConditionsUtilisation.pdf" download>Conditions d’utilisation</a>
+</div>
     <a class="license-link" href="downloads/licence_file_inno.txt" download>Consulter la licence SafeDeco</a>
   </div>
 </body>

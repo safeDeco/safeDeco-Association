@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +15,7 @@
     }
 
     .container {
-      max-width: 600px;
+      max-width: 800px;
       margin: 80px auto;
       background: #fff;
       padding: 40px;
@@ -23,14 +23,15 @@
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     }
 
-    img.logo {
-      width: 64px;
-      height: 64px;
-      margin-bottom: 20px;
+    img.logo, img.banner {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 30px;
     }
 
     h1 {
       color: #005fa3;
+      margin-top: 0;
     }
 
     p {
@@ -64,24 +65,40 @@
     }
 
     .license-link:hover {
-      color: #003d6b;
+      color: #003f6b;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="Pschitt_logo.png" alt="SafeDeco Logo" class="logo" />
-    <h1>Welcome to SafeDeco Association</h1>
+    <img src="fd6e0bd3-52a4-4150-9ad2-aa15eaffd226.png" alt="SafeDeco Logo" class="logo" />
+    <img src="12e83479-aab4-462d-a060-32a7850893d7.png" alt="Slogan" class="banner" />
+
+    <h1>Bienvenue sur le site de l'Association SafeDeco</h1>
     <p>
-      SafeDeco is a non-profit association committed to promoting safety, security, and responsible digital practices. 
-      We develop and distribute tools to help users navigate the digital world more confidently.
+      <strong>PSCHITT</strong> (Planification Scientifique de la Compression et de la Décompression) est une solution innovante développée par l’Association SafeDeco pour améliorer la sécurité et l'efficacité des plongées professionnelles.
     </p>
-    <a href="downloads/SafeDecoInstaller.exe" class="download-button" download>
-      Download the SafeDeco Program
-    </a>
-    <a href="downloads/licence_file_inno.txt" class="license-link" download>
-      View SafeDeco License Terms
-    </a>
+    <p>
+      Conçu pour les plongeurs <strong>militaires</strong>, <strong>commerciaux</strong> et <strong>scientifiques</strong>, PSCHITT permet :
+      <ul style="text-align: left; display: inline-block; margin: 0 auto;">
+        <li>l’intégration dynamique des <strong>tables officielles de décompression</strong></li>
+        <li>l’adaptation automatique aux <strong>conditions réelles de plongée</strong></li>
+        <li>la <strong>réduction des risques d’accidents de décompression (ADD)</strong></li>
+        <li>une meilleure fiabilité dans les <strong>opérations complexes ou imprévues</strong></li>
+        <li>l’<strong>étude approfondie des ADD</strong> grâce à l’analyse des écarts entre le profil prévu et le profil réel</li>
+      </ul>
+    </p>
+    <p>
+      Contrairement aux modèles algorithmiques fixes tels que <strong>Bühlmann</strong> ou <strong>VPM</strong>, PSCHITT :
+      <ul style="text-align: left; display: inline-block; margin: 0 auto;">
+        <li>utilise les tables réglementaires de manière flexible</li>
+        <li>réagit en temps réel aux déviations du profil prévu</li>
+        <li>fournit un appui décisionnel clair aux superviseurs et plongeurs</li>
+        <li>sert aussi d’<strong>outil d’analyse post-plongée</strong> pour mieux comprendre les accidents</li>
+      </ul>
+    </p>
+    <a class="download-button" href="downloads/YourInstaller.exe" download>Télécharger le programme SafeDeco</a>
+    <a class="license-link" href="downloads/licence_file_inno.txt" download>Consulter la licence SafeDeco</a>
   </div>
 </body>
 </html>

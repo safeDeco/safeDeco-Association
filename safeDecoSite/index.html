@@ -4,37 +4,84 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SafeDeco Association</title>
-  <link rel="icon" href="Pschitt_logo.ico" type="image/x-icon" />
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      background-color: #f0f4f8;
+      color: #333;
       text-align: center;
-      padding: 50px;
+      margin: 0;
+      padding: 0;
     }
 
     .container {
-      background-color: #fff;
-      padding: 40px;
-      margin: auto;
       max-width: 600px;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      margin: 80px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    img.logo {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 20px;
     }
 
     h1 {
-      color: #0077cc;
+      color: #005fa3;
     }
 
-    a.download {
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .download-button {
       display: inline-block;
-      margin-top: 30px;
-      padding: 15px 25px;
-      background-color: #0077cc;
-      color: #fff;
+      padding: 14px 24px;
+      background-color: #005fa3;
+      color: white;
       text-decoration: none;
-      border-radius: 5px;
       font-weight: bold;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+      margin-bottom: 20px;
     }
 
-    a.download:hover {
+    .download-button:hover {
+      background-color: #00447c;
+    }
+
+    .license-link {
+      display: block;
+      margin-top: 10px;
+      font-size: 0.95em;
+      color: #005fa3;
+      text-decoration: underline;
+    }
+
+    .license-link:hover {
+      color: #003d6b;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="Pschitt_logo.png" alt="SafeDeco Logo" class="logo" />
+    <h1>Welcome to SafeDeco Association</h1>
+    <p>
+      SafeDeco is a non-profit association committed to promoting safety, security, and responsible digital practices. 
+      We develop and distribute tools to help users navigate the digital world more confidently.
+    </p>
+    <a href="downloads/SafeDecoInstaller.exe" class="download-button" download>
+      Download the SafeDeco Program
+    </a>
+    <a href="downloads/licence_file_inno.txt" class="license-link" download>
+      View SafeDeco License Terms
+    </a>
+  </div>
+</body>
+</html>
